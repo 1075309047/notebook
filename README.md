@@ -1,2 +1,0 @@
-# notebook
-Learning Record.
