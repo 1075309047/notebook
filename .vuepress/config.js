@@ -1,4 +1,5 @@
 module.exports = {
+  "base": "/notebook/",
   "title": "title1",
   "description": "description2",
   "dest": "public",
