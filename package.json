@@ -1,14 +1,17 @@
 {
-  "name": "title1",
+  "name": "vuepress-theme-reco",
   "version": "1.0.0",
-  "author": "reco_luan",
+  "description": "A simple and beautiful vuepress blog theme.",
+  "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev . --open --host \"localhost\"",
-    "build": "vuepress build ."
+    "test": "vuepress dev notebook",
+    "dev": "vuepress dev notebook --open --host \"localhost\"",
+    "build": "vuepress build notebook"
   },
+  "author": "1075309047",
+  "license": "MIT",
   "devDependencies": {
     "vuepress": "1.8.2",
     "vuepress-theme-reco": "1.6.6"
-  },
-  "description": "description2"
+  }
 }

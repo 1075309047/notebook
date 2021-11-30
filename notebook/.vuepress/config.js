@@ -1,7 +1,7 @@
 module.exports = {
   "base": "/notebook/",
-  "title": "title1",
-  "description": "description2",
+  "title": "notebook",
+  "description": "笔记本",
   "dest": "public",
   "head": [
     [
@@ -91,7 +91,7 @@ module.exports = {
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
-    "author": "author3",
+    "author": "lzc",
     "authorAvatar": "/avatar.png",
     "record": "xxxx",
     "startYear": "2017"
