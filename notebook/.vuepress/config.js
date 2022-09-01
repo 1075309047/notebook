@@ -62,7 +62,8 @@ module.exports = {
       "/docs/tencent-cloud-server/": [
         "",
         "yum",
-        "user"
+        "user",
+        "firewalld"
       ],
       "/docs/theme-reco/": [
         "",
