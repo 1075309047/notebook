@@ -56,11 +56,13 @@ module.exports = {
     ],
     "sidebar": {
       "/docs/linux/": [
-        "yum"
+        "yum",
+        "ssh"
       ],
       "/docs/tencent-cloud-server/": [
         "",
-        "yum"
+        "yum",
+        "user"
       ],
       "/docs/theme-reco/": [
         "",
