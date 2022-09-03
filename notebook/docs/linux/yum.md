@@ -32,6 +32,20 @@ date: 2022-05-29
 
 `yum search <keyword>`
 
+## yum-utils管理repo
+
+### 安装 yum-utils
+
+`sudo yum install -y yum-utils`
+
+### 启用repo
+
+`yum-config-manager --set-enabled AppStream`
+
+### 禁用repo
+
+`yum-config-manager --set-disabled PowerTools`
+
 ## 缓存
 
 清除缓存

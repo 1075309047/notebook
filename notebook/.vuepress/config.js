@@ -55,6 +55,11 @@ module.exports = {
       }
     ],
     "sidebar": {
+      "/docs/docker/": [
+        "install/docker-install",
+        "install/docker-compose",
+        "install/registry-mirrors"
+      ],
       "/docs/linux/": [
         "yum",
         "ssh"

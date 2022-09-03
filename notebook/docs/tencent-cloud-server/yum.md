@@ -40,28 +40,6 @@ gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-8
 ```
 
-### 安装 yum-utils
-
-`sudo yum install -y yum-utils`
-
-### 配置 docker-ce 源
-
-```linux
-sudo yum-config-manager \
-    --add-repo \
-    https://download.docker.com/linux/centos/docker-ce.repo
-```
-
-## repo管理
-
-### 启用repo
-
-`yum-config-manager --set-enabled AppStream`
-
-### 禁用repo
-
-`yum-config-manager --set-disabled PowerTools`
-
 ## 清理yum缓存，重建依赖
 
 `yum clean all && yum makecache`
