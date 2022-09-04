@@ -17,6 +17,9 @@ date: 2022-05-29
 列出以 pam 为开头的软件包
 `yum list pam*`
 
+列出所有已安装的软件包
+`yum list installed`
+
 查看软件包的详细信息
 `yum info <package_name>`
 

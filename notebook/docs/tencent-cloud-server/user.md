@@ -29,9 +29,9 @@ su - 命令是切换用户身份，获得了用户的执行权限及用户的环
 
 ```markdown
 # sudo 需密
-lighthouse  ALL=(ALL)   ALL
+lighthouse ALL=(ALL) ALL
 # sudo 免密
-lzc         ALL=(ALL)   NOPASSWD:ALL
+lzc        ALL=(ALL) NOPASSWD:ALL
 ```
 
 ## 解决 sudoers 中的用户频繁的执行 sudo 命令提权

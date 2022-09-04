@@ -19,6 +19,8 @@ date: 2022-05-29
 
 `cat id_rsa.pub >> ~/.ssh/authorized_keys`
 
+**注意**：如果root账号已禁用ssh登陆，请安装到普通账号的家目录下
+
 ### 修改权限（仅所有者可读可写）
 
 `chmod 700 ~/.ssh`
