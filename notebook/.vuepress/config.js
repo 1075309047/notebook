@@ -63,7 +63,8 @@ module.exports = {
       "/docs/linux/": [
         "yum",
         "ssh",
-        "security/iptables"
+        "security/iptables",
+        "security/firewalld"
       ],
       "/docs/tencent-cloud-server/": [
         "",
